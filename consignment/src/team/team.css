@@ -1,0 +1,81 @@
+.team-grid{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    margin-top: 35px;
+}
+
+.team-grid img{
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about{
+    margin-left: 20px;
+    
+}
+
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 210px;
+}
+
+.grid-box p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.company-brief{
+    color:#666;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.text-short{
+    font-size: 24px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    color: rgb(58, 1, 58);
+}
+.quality-grid{
+    margin-left: 12px;
+}
+
+.quality-grid li{
+    font-weight: bold;
+    color: rgb(58, 1, 58);
+    font-size: 20px;
+}
+
+.founder{
+    font-size: 16px;
+    color:rgb(58, 1, 58) ;
+}
+
+
+@media (max-width: 760px){
+
+    .team-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-grid img{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+}
+
+
+.grid-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
