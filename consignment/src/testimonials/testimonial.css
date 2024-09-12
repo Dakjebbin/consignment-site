@@ -22,3 +22,29 @@
     font-size: 20px;
     margin-top: 5px;
 }
+
+@media (max-width: 800px){
+    .main-testimonial{
+        padding-top: 30px;
+        padding-bottom: 30px;
+       height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-testimonial h2{
+        font-size: 40px;
+    }
+
+    .main-testimonial p{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .testimonial{
+       
+        height:fit-content ;
+        
+    }
+}

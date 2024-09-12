@@ -19,28 +19,38 @@ const Clients = () => {
 
 <div className='grid-client'>
     <div className='grid-client1'>
-        <img src={asset.andy} alt="" />
+        <img className='profile-picture' src={asset.andy} alt="" />
 
-        <p>
-        Working with Swiftship logistics has been a game-changer for our business. 
+        <p style={{fontStyle:'italic'}}>
+        &quot;Working with Swiftship logistics has been a game-changer for our business. 
         Their dedication to safety and efficiency is unmatched, 
-        and they have consistently delivered our shipments on time, every time <span>&quot;</span>
+        and they have consistently delivered our shipments on time, every time &quot;
         </p>
+
+        <img style={{width:'90px', paddingTop:'20px'}} src={asset.fivestar} alt="" />
+        <p>Oliver Noah</p>
     </div>
     <div className='grid-client1'>
-        <img src={asset.edward} alt="" />
-        <p>
-        These guys are just the coolest logistics company ever! They exceptionally 
-        handled our complex road freight services.<span>&quot;</span>
+        <img className='profile-picture' src={asset.edward} alt="" />
+        <p style={{fontStyle:'italic'}}>
+        &quot; These guys are just the coolest logistics company ever! They exceptionally 
+        handled our complex road freight services.&quot;
         </p>
+
+        <img style={{width:'90px', paddingTop:'20px'}} src={asset.fivestar} alt="" />
+        <p>Joseph Philip</p>
     </div>
     <div className='grid-client1'>
-        <img src={asset.mary} alt="" />
-        <p>
-        Their performance on our project was extremely successful.
+        <img className='profile-picture' src={asset.mary} alt="" />
+        <p style={{fontStyle:'italic'}}>
+        &quot; Their performance on our project was extremely successful.
          As a result of this collaboration, the project was built with exceptional quality & delivered.
-         <span>&quot;</span>
+         &quot;
         </p>
+
+        <img style={{width:'90px', paddingTop:'20px'}} src={asset.fourstar} alt="" />
+
+        <p>Mary George</p>
     </div>
 </div>
 
