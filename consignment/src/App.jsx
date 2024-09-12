@@ -5,6 +5,8 @@ import Team from './team/Team'
 import Back from './background/Back'
 import Loader from './Loader/Loader'
 import Footer from './footer/Footer'
+import Testimonial from './testimonials/Testimonial'
+import Clients from './clients say/Clients'
 
 
 
@@ -23,7 +25,10 @@ const App = () => {
 <Back/>
     <Services/>
   <Team/>
+  <Testimonial/>
+  <Clients/>
   <Footer/>
+  
   </>)}
   </div>
   );

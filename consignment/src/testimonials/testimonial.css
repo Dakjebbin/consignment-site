@@ -1,0 +1,24 @@
+.testimonial{
+    background-color: rgb(58, 1, 58);
+    color: white;
+    margin-top: 80px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.main-testimonial{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.main-testimonial h2{
+    font-size: 43px;
+}
+
+.main-testimonial p{
+    font-size: 20px;
+    margin-top: 5px;
+}

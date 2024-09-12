@@ -1,6 +1,9 @@
 .footer{
     background-color: rgb(58, 1, 58);
     margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
     color: white;
 }
 
@@ -8,3 +11,83 @@
     width: 80%;
     margin: auto;
 }
+
+.tel{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.tel a{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.white-footer{
+width: 150px;
+border-radius: 10px;
+}
+
+.grid-footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+}
+
+.company-footer h2{
+    margin-bottom: 15px;
+    
+}
+
+.company-footer ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;    
+}
+
+.company-footer ul li{
+    font-size: 18px;
+    color: rgb(144, 143, 143);
+}
+
+.working-time{
+    margin-top: 15px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.working-time p{
+    font-size: 18px;
+    color: rgb(144, 143, 143);
+}
+
+.tel h2{
+    font-size: 32px;
+}
+
+.social-icons {
+   margin-top: 20px;
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.write-up p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(144, 143, 143);
+}
+
+.social-icons svg{
+width: 23px;
+cursor: pointer;
+}
+
+.social-icons svg:hover{
+    fill: rgb(255, 255, 255);
+}
+
