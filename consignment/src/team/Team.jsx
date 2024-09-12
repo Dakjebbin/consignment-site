@@ -4,7 +4,7 @@ import { asset } from '../images/assets'
 
 const Team = () => {
   return (
-    <div id='about-menu'>
+    <div id='about-menu' className='main-about'>
       <div className='team-grid'>
       <div>
         <img src={asset.delivery} alt="" />

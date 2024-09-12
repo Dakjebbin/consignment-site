@@ -21,7 +21,7 @@ export const Swift = () => {
   };
 
   return (
-    <div>
+    <div className='main-header'>
       <header>
         <div className="image-logo">
           <img src={asset.logo} alt="Company Logo" />

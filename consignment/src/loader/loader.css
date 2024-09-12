@@ -1,0 +1,39 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.spinner {
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid rgb(58, 1, 58);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+}
+.logo-reduce{
+    width: 80px;
+    position: absolute;
+    top: 205px;
+}
+
+.loader-container h2{
+    color: rgb(58, 1, 58);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 500px){
+.logo-reduce{
+    width: 80px;
+    position: absolute;
+    top: 300px;
+}
+}

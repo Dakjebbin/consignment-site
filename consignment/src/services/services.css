@@ -6,6 +6,12 @@
     color: rgb(58, 1, 58);
 }
 
+.main-services{
+    
+    width: 80%;
+    margin: auto;
+}
+
 /* Styles for the services grid container */
 .services-grid {
     display: grid;
@@ -16,7 +22,7 @@
 
 /* Styles for each grid item */
 .grid-1 {
-    background-color: #f9f9f9;
+    background-color: #dbd9d9;
     padding: 20px;
     border-radius: 8px;
     text-align: center;

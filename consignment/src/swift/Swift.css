@@ -7,6 +7,11 @@ header{
     padding: 40px 40px ;
 }
 
+.main-header{
+        width: 80%;
+        margin: auto;
+}
+
 .active{
     padding-bottom: 2px ;
     border-bottom:  2px solid rgb(2, 2, 35);

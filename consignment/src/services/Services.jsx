@@ -4,7 +4,7 @@ import { asset } from '../images/assets'
 
 const Services = () => {
   return (
-    <div id='services'>
+    <div id='services' className='main-services'>
         <div>
             <h2 className='serve'>Our Services</h2>
         </div>
