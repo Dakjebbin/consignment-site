@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; //eslint-disable-line
 import { asset } from '../images/assets';
 import './Swift.css';
+import { Link } from 'react-router-dom';
 
 
 export const Swift = () => {
@@ -21,25 +22,26 @@ export const Swift = () => {
   };
 
   return (
-    <div className='main-header'>
+    <div className='main-header' >
       <header>
         <div className="image-logo">
           <img src={asset.logo} alt="Company Logo" />
         </div>
         <nav>
           <ul>
-            <li onClick={() => setMenu('Home')} className={menu === 'Home' ? 'active' : ''}>
+    
+            <Link to='/' onClick={() => setMenu('Home')} className={menu === 'Home' ? 'active' : ''}>
               Home
-            </li>
-            <li onClick={() => setMenu('About')} className={menu === 'About' ? 'active' : ''}>
+            </Link>
+            <a href='#about-menu' onClick={() => setMenu('About')} className={menu === 'About' ? 'active' : ''}>
               About
-            </li>
-            <li onClick={() => setMenu('Services')} className={menu === 'Services' ? 'active' : ''}>
+            </a>
+            <a href='#services' onClick={() => setMenu('Services')} className={menu === 'Services' ? 'active' : ''}>
               Services
-            </li>
-            <li onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
+            </a>
+            <a onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
               Support
-            </li>
+            </a>
           </ul>
         </nav>
         <button className="contact-button">Contact Us</button>
@@ -56,18 +58,18 @@ export const Swift = () => {
           <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
         </svg>
         <ul>
-          <li onClick={() => setMenu('Home')} className={menu === 'Home' ? 'active' : ''}>
+          <Link to='/' onClick={() => setMenu('Home')} className={menu === 'Home' ? 'active' : ''}>
             Home
-          </li>
-          <li onClick={() => setMenu('About')} className={menu === 'About' ? 'active' : ''}>
+          </Link>
+          <a href='#about-menu' onClick={() => setMenu('About')} className={menu === 'About' ? 'active' : ''}>
             About
-          </li>
-          <li onClick={() => setMenu('Services')} className={menu === 'Services' ? 'active' : ''}>
+          </a>
+          <a href='#services' onClick={() => setMenu('Services')} className={menu === 'Services' ? 'active' : ''}>
             Services
-          </li>
-          <li onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
+          </a>
+          <a href='' onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
             Support
-          </li>
+          </a>
         </ul>
       </div>
     </div>

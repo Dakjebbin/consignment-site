@@ -69,28 +69,73 @@ border-radius: 10px;
     font-size: 32px;
 }
 
-.social-icons {
-   margin-top: 20px;
-    display: flex;
-    width: 180px;
-    justify-content: space-between;
-}
-
 .write-up p{
     margin-top: 10px;
     font-size: 18px;
     color: rgb(144, 143, 143);
 }
 
-.social-icons svg{
-width: 23px;
-cursor: pointer;
+@media (max-width: 900px){
+    .grid-footer{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 350px 1fr 1fr;
+    }
+
+    .tel {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .white-footer{
+        width: 140px;
+        border-radius: 10px;
+        }
+
+    .tel a{
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+    }
 }
 
-.social-icons svg:hover{
-    fill: rgb(255, 255, 255);
-}
+@media (max-width: 750px){
+    .grid-footer{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 300px 1fr 1fr;
+    }
 
-@media (max-width: 800px){
+    .white-footer{
+        width: 120px;
+        border-radius: 10px;
+        }
+        
+
     
+.working-time p{
+    font-size: 15px;
+    color: rgb(144, 143, 143);
+}
+
+.write-up p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(144, 143, 143);
+}
+}
+
+@media (max-width: 750px){
+    .grid-footer{
+        
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+
+ .open-hours{
+    margin-top: 20px;
+ }
+
 }

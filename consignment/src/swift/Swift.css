@@ -32,7 +32,7 @@ header{
 }
 
 
-header ul li{
+header ul a{
     list-style-type: none;
     display: inline-block;
     margin: 10px 20px;
@@ -70,7 +70,7 @@ header ul li{
 }
 
 @media (max-width: 1050px) {
-    header ul li{
+    header ul a{
         display: none;
     }
     
@@ -98,7 +98,7 @@ header ul li{
     justify-content: space-between;
     }
 
-    .mobile-menu ul li{
+    .mobile-menu ul a{
         color: white;
         font-size: 25px;
         font-weight: bold;
@@ -131,7 +131,7 @@ header ul li{
 }
 
 @media (max-width: 750px) {
-    header ul li{
+    header ul a{
         display: none;
     }
     
@@ -178,7 +178,7 @@ header ul li{
     justify-content: space-between;
     }
 
-    .mobile-menu ul li{
+    .mobile-menu ul a{
         color: white;
         font-size: 25px;
         font-weight: bold;

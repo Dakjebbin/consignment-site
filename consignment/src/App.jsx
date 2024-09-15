@@ -7,6 +7,9 @@ import Loader from './Loader/Loader'
 import Footer from './footer/Footer'
 import Testimonial from './testimonials/Testimonial'
 import Clients from './clients say/Clients'
+import { Route, Routes } from 'react-router-dom'
+import Support from './support/Support'
+import Home from './Home/Home'
 
 
 
@@ -22,8 +25,16 @@ const App = () => {
  <div className='app'>
   {loading ? ( <Loader/> ) : ( <>
   <Swift/>
-<Back/>
-    <Services/>
+  <Routes>
+  <Route path='/' element={<Home/>} /> 
+  <Route path='/About' element={<Team/>} />
+  <Route path='/Services' element={<Services/>} />
+  <Route path='/Support' element={<Support/>} />  
+  </Routes>
+
+  
+
+  <Services/>
   <Team/>
   <Testimonial/>
   <Clients/>
