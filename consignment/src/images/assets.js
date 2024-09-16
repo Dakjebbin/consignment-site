@@ -7,6 +7,8 @@ import edward from './testimonial-edward-150x150.png'
 import mary from './mary jane.jpg'
 import fivestar from './rating-50.png'
 import fourstar from './rating-40.png'
+import deliver from './bg.jpg'
+import videobg from './vide.mp4'
 
 export const asset = {
     logo,
@@ -18,4 +20,6 @@ export const asset = {
     mary,
     fivestar,
     fourstar,
+    deliver,
+    videobg,
 }

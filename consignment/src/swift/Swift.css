@@ -36,7 +36,9 @@ header ul a{
     list-style-type: none;
     display: inline-block;
     margin: 10px 20px;
-    font-size: 22px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(62, 62, 62);
 
     cursor: pointer;
 }
@@ -54,16 +56,6 @@ header ul a{
     z-index: 100;
 }
 
-.contact-button{
-    padding: 13px;
-    border-radius: 10px;
-    border: 0;
-    background-color: rgb(58, 1, 58);
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-   
-}
 
 .hamburger{
     display: none;

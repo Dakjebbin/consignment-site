@@ -24,8 +24,10 @@ export const Swift = () => {
   return (
     <div className='main-header' >
       <header>
-        <div className="image-logo">
-          <img src={asset.logo} alt="Company Logo" />
+        <div >
+          <Link to='/'>
+          <img className="image-logo" src={asset.logo} alt="Company Logo" />
+          </Link>
         </div>
         <nav>
           <ul>
@@ -39,12 +41,14 @@ export const Swift = () => {
             <a href='#services' onClick={() => setMenu('Services')} className={menu === 'Services' ? 'active' : ''}>
               Services
             </a>
-            <a onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
+            <Link to='/support'>
+            <li onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
               Support
-            </a>
+            </li>
+            </Link>
           </ul>
         </nav>
-        <button className="contact-button">Contact Us</button>
+      
         
         {/* Hamburger icon to toggle sidebar */}
         <svg className="hamburger js-open-button" onClick={toggleSidebar} xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="#e8eaed">
@@ -67,9 +71,11 @@ export const Swift = () => {
           <a href='#services' onClick={() => setMenu('Services')} className={menu === 'Services' ? 'active' : ''}>
             Services
           </a>
-          <a href='' onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
+          <Link to='/support'>
+          <li href='' onClick={() => setMenu('Support')} className={menu === 'Support' ? 'active' : ''}>
             Support
-          </a>
+          </li>
+          </Link>
         </ul>
       </div>
     </div>

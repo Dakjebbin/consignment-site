@@ -6,9 +6,9 @@ const Team = () => {
   return (
     <div id='about-menu' className='main-about'>
       <div className='team-grid'>
-      <div>
-        <img src={asset.delivery} alt="" />
-      </div>
+      
+        <img src={asset.deliver} alt="" />
+     
 
       <div className='about'>
         <h5 className='company-brief'>About Our Company</h5>
