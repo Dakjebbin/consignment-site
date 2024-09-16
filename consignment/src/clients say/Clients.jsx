@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' //eslint-disable-line
 import './clients.css'
 import { asset } from '../images/assets'
 

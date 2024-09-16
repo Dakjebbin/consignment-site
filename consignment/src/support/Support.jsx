@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react' //eslint-disable-line
 import './support.css'
-import Footer from '../footer/Footer';
 
 const Support = () => {
   return (

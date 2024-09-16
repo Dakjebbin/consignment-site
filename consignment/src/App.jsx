@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'; // eslint-disable-line
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Swift } from './swift/Swift';
 import Services from './services/Services';
