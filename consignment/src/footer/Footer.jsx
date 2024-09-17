@@ -39,7 +39,7 @@ const Footer = () => {
 
                   <a href='#services'>
                     Services
-                  </a>
+                </a>
 
         <Link to='/support'>
             <li>
