@@ -74,6 +74,24 @@ app.post('/api/shipments', async (req, res) => {
        }
     }
 });
+
+
+//route for deleting a shipment
+// Delete route for shipment
+app.delete('/api/shipments/:id', async (req, res) => {
+    const { id } = req.params;
+    try {
+      const deletedShipment = await Shipment.findByIdAndDelete(id);
+      if (deletedShipment) {
+        res.status(200).json({ message: 'Shipment deleted successfully' });
+      } else {
+        res.status(404).json({ message: 'Shipment not found' });
+      }
+    } catch (error) {
+      res.status(500).json({ message: 'Error deleting shipment' });
+    }
+  });
+  
   
     
 
