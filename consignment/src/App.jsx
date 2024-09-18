@@ -9,6 +9,7 @@ import Clients from './clients say/Clients';
 import Footer from './footer/Footer';
 import Support from './support/Support';
 import Home from './Home/Home';
+import ShipmentDetailsPage from './shipment details/ShipmentDetailsPage';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ const App = () => {
             <Routes>
               {/* Route for the Support page */}
               <Route path="/support" element={<Support />} />
+              <Route path="/details/:trackingCode" element={<ShipmentDetailsPage/>} />
               {/* Main page components */}
               <Route path="/" element={
                 <>

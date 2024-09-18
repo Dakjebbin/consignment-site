@@ -1,0 +1,54 @@
+/* ShipmentDetailsPage.css */
+
+.shipment-details-page {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+   
+  
+  }
+  
+  .shipment-details-page h3 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .shipment-details-page p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .shipment-details-page p b {
+    color: #333;
+  }
+  
+  .shipment-details-page .division {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .shipment-details-page .loading {
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+
+  
