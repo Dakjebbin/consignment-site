@@ -27,7 +27,7 @@ const Support = () => {
       </div>
 
       <div>
-        <form action="">
+        <form className='support-form' action="">
           <input type="text" placeholder='Your Name' name="name" id="name" required />
           <br />
           <input type="email" placeholder='Your Email' name="email" id="email" required />
