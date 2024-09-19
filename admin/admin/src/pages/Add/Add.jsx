@@ -4,7 +4,7 @@ import { toast, ToastContainer } from 'react-toastify'; // Import ToastContainer
 import 'react-toastify/dist/ReactToastify.css'; // Import Toastify CSS
 
 const Add = () => {
-    const url = "http://localhost:4000/api/shipments";
+    const url = "https://consignment-site-backend.vercel.app/api/shipments";
     const [trackingCode, setTrackingCode] = useState("");
     const [status, setStatus] = useState("");
     const [shipments, setShipments] = useState([]);

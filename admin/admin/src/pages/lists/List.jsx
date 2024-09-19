@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react' //eslint-disable-line
-import './list.css'
+import React, { useState, useEffect } from 'react'; //eslint-disable-line
+import './list.css';
 import { toast, ToastContainer } from 'react-toastify'; // Assuming you're using react-toastify for notifications
 import 'react-toastify/dist/ReactToastify.css';
-
 
 const List = () => {
   const [list, setList] = useState([]);
@@ -10,7 +9,7 @@ const List = () => {
   // Fetch the list of shipments
   const fetchList = async () => {
     try {
-      const response = await fetch('http://localhost:4000/api/shipments');
+      const response = await fetch('https://consignment-site-backend.vercel.app/api/shipments');
       const data = await response.json();
       setList(data);
     } catch (error) {
@@ -22,7 +21,7 @@ const List = () => {
   // Remove shipment function
   const removeShipment = async (shipmentId) => {
     try {
-      const response = await fetch(`http://localhost:4000/api/shipments/${shipmentId}`, {
+      const response = await fetch(`https://consignment-site-backend.vercel.app/api/shipments/${shipmentId}`, {
         method: 'DELETE',
       });
       if (response.ok) {
