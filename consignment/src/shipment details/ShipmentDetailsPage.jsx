@@ -42,6 +42,7 @@ const ShipmentDetailsPage = () => {
       ) : (
         <p>Loading shipment details...</p>
       )} 
+      
         </div>
       
 
