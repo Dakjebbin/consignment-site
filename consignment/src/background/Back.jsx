@@ -17,7 +17,7 @@ const Back = () => {
     }
 
     try {
-      const response = await fetch(`http://localhost:4000/api/shipments/${trackingCode}`);
+      const response = await fetch(`https://consignment-site-backend.vercel.app/api/shipments/${trackingCode}`);
       const data = await response.json();
 
       if (response.ok) {
