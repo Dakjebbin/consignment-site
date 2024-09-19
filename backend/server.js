@@ -1,6 +1,10 @@
 import express from "express"
 import cors from "cors"
 import mongoose from "mongoose";
+import dotenv from  "dotenv"
+
+//load environment variable
+dotenv.config();
 
 
 //app config
@@ -111,4 +115,6 @@ app.get('/api/shipments/:trackingCode',
             res.status(500).json({message:'Error fetching Shipments'});
         }
     });
+
+    
 
