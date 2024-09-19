@@ -9,9 +9,11 @@ import fivestar from './rating-50.png'
 import fourstar from './rating-40.png'
 import deliver from './bg.jpg'
 import videobg from './vide.mp4'
+import trust from './trustpilot.jpg'
 
 export const asset = {
     logo,
+    trust,
     background,
     delivery,
     white_logo,

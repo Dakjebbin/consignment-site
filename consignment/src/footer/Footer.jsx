@@ -18,11 +18,16 @@ const Footer = () => {
             <div className='grid-footer'>
               <div>
       <img className='white-footer' src={asset.white_logo} alt="" />
-
+      
+      
       <div className='write-up'>
         <p>Experience the difference today and let us <br />help you save both time and Money.</p>
       </div>
-
+      <br />
+   
+      <div><img className='white-foot' src={asset.trust} alt="" />
+      </div>
+      <br />
       
               </div>
     

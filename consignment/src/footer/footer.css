@@ -28,6 +28,11 @@ width: 150px;
 border-radius: 10px;
 }
 
+.white-foot{
+    width: 150px;
+    
+    }
+
 .grid-footer{
     margin-top: 30px;
     display: grid;
