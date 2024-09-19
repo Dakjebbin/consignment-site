@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Swift } from './swift/Swift';
 import Services from './services/Services';
 import Team from './team/Team';
-import Loader from './Loader/Loader';
+import Loader from './loader/Loader.jsx';
 import Testimonial from './testimonials/Testimonial';
 import Clients from './clients say/Clients';
 import Footer from './footer/Footer';
