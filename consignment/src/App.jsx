@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'; // eslint-disable-line
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { Swift } from './swift/Swift';
 import Services from './services/Services';
 import Team from './team/Team';
@@ -13,6 +13,7 @@ import ShipmentDetailsPage from './shipment details/ShipmentDetailsPage';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
   // Adding Smartsupp script dynamically
   useEffect(() => {
@@ -51,11 +52,20 @@ const App = () => {
   
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
-  }, []);
+
+    const shouldLoad = location.pathname.includes('/support') 
+    || location.pathname.includes('/details');
+
+    if (shouldLoad) {
+    setLoading(true);
+const timeout = setTimeout(() => setLoading(false), 1000);
+return () => clearTimeout(timeout);
+  } else {
+    setLoading(false);
+  }
+}, [location]);
 
   return (
-    <Router>
       <div className="app">
         {loading ? (
           <Loader />
@@ -81,7 +91,6 @@ const App = () => {
           </>
         )}
       </div>
-    </Router>
   );
 };
 

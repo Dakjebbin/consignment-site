@@ -24,12 +24,16 @@ const Back = () => {
         toast.success('Tracking code found!');
         // Redirect to the details page with the trackingCode as a URL parameter
         navigate(`/details/${trackingCode}`);
+        setTrackingCode('');
       } else {
         toast.error(data.message || 'Tracking code not found');
+        setTrackingCode('');
       }
     } catch (err) {
       toast.error('An error occurred while verifying the tracking code. Please try again.');
     }
+
+   
   };
 
   return (
