@@ -17,7 +17,7 @@ const Footer = () => {
 
             <div className='grid-footer'>
               <div>
-      <img className='white-footer' src={asset.white_logo} alt="" />
+      <img className='white-footer' src={asset.footer_logo} alt="" />
       
       
       <div className='write-up'>

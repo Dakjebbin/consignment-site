@@ -11,7 +11,7 @@ const Clients = () => {
         What Our Clients Say About US
     </h1>
     <p>
-    When you ship with Swiftship logisitics – you’re shipping with specialists in international 
+    When you ship with LogiTech Solutions – you’re shipping with specialists in international 
     shipping and delivery services! 
     Our top priority is customer satisfaction. Hear what some of our clients say about us.
     </p>
@@ -22,7 +22,7 @@ const Clients = () => {
         <img className='profile-picture' src={asset.andy} alt="" />
 
         <p style={{fontStyle:'italic'}}>
-        &quot;Working with Swiftship logistics has been a game-changer for our business. 
+        &quot;Working with LogiTech Solutions has been a game-changer for our business. 
         Their dedication to safety and efficiency is unmatched, 
         and they have consistently delivered our shipments on time, every time &quot;
         </p>

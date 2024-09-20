@@ -23,7 +23,7 @@ const App = () => {
     script.async = true;
     script.innerHTML = `
       var _smartsupp = _smartsupp || {};
-      _smartsupp.key = '523d589ed2d7e2bafb42854d4dd900b94059d221';
+     _smartsupp.key = '39cf355bd34d74c8af4ce03eaf916d364914c645';
       window.smartsupp||(function(d) {
         var s,c,o=smartsupp=function(){ o.push(arguments)};o=[];
         s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -32,7 +32,6 @@ const App = () => {
         s.parentNode.insertBefore(c,s);
       })(document);
       
-
 
 
       // Fire event when user visits the website

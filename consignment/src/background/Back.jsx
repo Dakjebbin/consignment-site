@@ -41,7 +41,7 @@ const Back = () => {
       <div className='background-content'>
         <span>
           <h2>
-            Welcome to <br /> SwiftShip Logistics
+            Welcome to <br /> LogiTech Solutions
           </h2>
         </span>
         <form className='home-form' onSubmit={handleSubmit}>

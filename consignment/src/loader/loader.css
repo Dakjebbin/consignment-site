@@ -15,11 +15,7 @@
     height: 100px;
     animation: spin 1s linear infinite;
 }
-.logo-reduce{
-    width: 80px;
-    position: absolute;
-    top: 205px;
-}
+
 
 .loader-container h2{
     color: rgb(58, 1, 58);

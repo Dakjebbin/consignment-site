@@ -26,7 +26,7 @@ export const Swift = () => {
       <header>
         <div >
           <Link to='/'>
-          <img className="image-logo" src={asset.logo} alt="Company Logo" />
+          <img className="image-logo" src={asset.white_logo} alt="Company Logo" />
           </Link>
         </div>
         <nav>

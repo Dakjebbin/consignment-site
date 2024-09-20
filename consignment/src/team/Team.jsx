@@ -15,7 +15,7 @@ const Team = () => {
         <h3 className='text-short'>Reliable Logistics & Transport Solution Saves Your Time</h3>
         <div className='grid-box'>
         <div>
-          <p>SwiftShip Logistics is a comprehensive logistics operator providing a 
+          <p>LogiTech Solutions is a comprehensive logistics operator providing a 
             full range of services in customs clearance and global transportation for all types of cargo. 
             We ensure smooth and efficient handling for your logistics needs worldwide.
           </p>
