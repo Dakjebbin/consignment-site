@@ -54,7 +54,7 @@ const App = () => {
   useEffect(() => {
 
     const shouldLoad = location.pathname.includes('/support') 
-    || location.pathname.includes('/details') || location.pathname.includes("/");
+    || location.pathname.includes('/details') || 
 
     if (shouldLoad) {
     setLoading(true);
