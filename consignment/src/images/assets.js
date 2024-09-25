@@ -10,12 +10,14 @@ import fourstar from './rating-40.png'
 import deliver from './bg.jpg'
 import videobg from './vide.mp4'
 import trust from './trustpilot.jpg'
+import parcel from './parcel_icon.png'
 
 export const asset = {
   footer_logo,
     trust,
     background,
     delivery,
+    parcel,
     white_logo,
     andy,
     edward,

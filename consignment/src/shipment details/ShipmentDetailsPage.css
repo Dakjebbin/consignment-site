@@ -2,9 +2,10 @@
 
 .new-design{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100px 1fr 1fr;
+  align-items: center;
   border: 2px solid rgb(120, 118, 118);
-  background-color: #ceaeae;
+  background-color: #d2cbcb;
   width: 80%;
   margin: auto;
   border-radius: 4px;
@@ -13,8 +14,18 @@
   
 }
 
+.parcel-icon{
+  width: 45px;
+  
+}
+
+.delivery-texts {
+font-size: 18px;
+}
+
 .dot{
   color: rgb(168, 7, 7);
+  margin: 7px;
 }
 
 

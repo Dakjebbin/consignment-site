@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from '../footer/Footer';
+import { asset } from '../images/assets';
 
 const ShipmentDetailsPage = () => {
   const { trackingCode } = useParams(); // Get the trackingCode from URL
@@ -32,13 +33,18 @@ const ShipmentDetailsPage = () => {
   return (
     <div className="shipment-details-page">
       <div className='container'>
-        <h3>Shipment Details</h3>
+        <h3>SHIPMENT DETAILS</h3>
         {trackingDetails ? (
           <div className='new-design'>
-          <div><b>Tracking Code:</b> {trackingDetails.trackingCode}</div>
-          <div>
+            <div>
+              <img className='parcel-icon' src={asset.parcel} alt="" />
+            </div>
+          <div className='delivery-texts'><p>
+          <b>Tracking Code:</b> {trackingDetails.trackingCode}</p></div>
+          <div className='delivery-texts'>
+          <p>
            <span className='dot'>&#x25cf;</span>
-          <b>Status:</b> {trackingDetails.status}
+          <b>Status:</b> {trackingDetails.status}</p>
           </div>
           
          
@@ -46,7 +52,7 @@ const ShipmentDetailsPage = () => {
           
         ) : (
           
-<p>Loading shipment details...</p> 
+      <p style={{textAlign:'center'}}>Loading shipment details... Please Wait</p> 
        
         )}
       </div>
