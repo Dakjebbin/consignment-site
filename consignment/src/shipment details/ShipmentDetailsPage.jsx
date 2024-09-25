@@ -34,12 +34,20 @@ const ShipmentDetailsPage = () => {
       <div className='container'>
         <h3>Shipment Details</h3>
         {trackingDetails ? (
-          <div className='division'>
-            <p><b>Tracking Code:</b> {trackingDetails.trackingCode}</p>
-            <p><b>Status:</b> {trackingDetails.status}</p>
+          <div className='new-design'>
+          <div><b>Tracking Code:</b> {trackingDetails.trackingCode}</div>
+          <div>
+           <span className='dot'>&#x25cf;</span>
+          <b>Status:</b> {trackingDetails.status}
           </div>
+          
+         
+         </div>
+          
         ) : (
-          <p>Loading shipment details...</p>
+          
+<p>Loading shipment details...</p> 
+       
         )}
       </div>
 

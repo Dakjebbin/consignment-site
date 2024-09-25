@@ -1,26 +1,51 @@
 /* ShipmentDetailsPage.css */
 
-.shipment-details-page {
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
+.new-design{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid rgb(120, 118, 118);
+  background-color: #ceaeae;
+  width: 80%;
+  margin: auto;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.dot{
+  color: rgb(168, 7, 7);
+}
+
+
+.shipment-details-page h3 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.container {
+ 
+  margin-bottom: 20px;
+}
+
+@media (max-width: 750px){
+  .new-design{
+    display: grid;
    
-  
+    
   }
+}
+
+
+/* old design 
+
   
-  .shipment-details-page h3 {
-    color: #333;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+
   
-  .shipment-details-page p {
-    font-size: 1.2rem;
-    color: #555;
-    margin: 10px 0;
-  }
+  
   
   .shipment-details-page p b {
     color: #333;
@@ -45,10 +70,7 @@
     margin-bottom: 20px;
   }
   
-  .shipment-details-page .loading {
-    font-size: 1.5rem;
-    color: #888;
-  }
+  
   
 
-  
+  */

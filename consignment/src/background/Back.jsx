@@ -31,6 +31,7 @@ const Back = () => {
       }
     } catch (err) {
       toast.error('An error occurred while verifying the tracking code. Please try again.');
+      setTrackingCode('')
     }
 
    
