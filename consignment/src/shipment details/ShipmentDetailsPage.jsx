@@ -36,18 +36,17 @@ const ShipmentDetailsPage = () => {
         <h3>SHIPMENT DETAILS</h3>
         {trackingDetails ? (
           <div className='new-design'>
-            <div>
+            
               <img className='parcel-icon' src={asset.parcel} alt="" />
-            </div>
-          <div className='delivery-texts'><p>
+           
+          <div className='delivery-texts'>
+            <p>
           <b>Tracking Code:</b> {trackingDetails.trackingCode}</p></div>
           <div className='delivery-texts'>
           <p>
            <span className='dot'>&#x25cf;</span>
           <b>Status:</b> {trackingDetails.status}</p>
           </div>
-          
-         
          </div>
           
         ) : (

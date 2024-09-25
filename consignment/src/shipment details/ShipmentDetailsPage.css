@@ -38,50 +38,34 @@ font-size: 18px;
 
 
 .container {
- 
   margin-bottom: 20px;
 }
 
-@media (max-width: 750px){
+
+@media (max-width: 700px){
   .new-design{
-    display: grid;
-   
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    .dot{
+      color: rgb(168, 7, 7);
+      margin-right: 7px;
+    }
+
+    .parcel-icon{
+  width: 45px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.delivery-texts {
+  font-size: 15px;
+  padding-bottom: 10px;
   }
 }
 
 
-/* old design 
-
-  
-
-  
-  
-  
-  .shipment-details-page p b {
-    color: #333;
-  }
-  
-  .shipment-details-page .division {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
-    text-align: left;
-    
-  }
-
-  .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  
-  
-
-  */

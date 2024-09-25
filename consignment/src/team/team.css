@@ -14,8 +14,8 @@
     max-width: 100%;
    height: auto;
    object-fit: cover;
-   margin-top: 50%;
-   margin-bottom: 50%;
+   margin-top: auto;
+   margin-bottom: auto;
     border-radius: 10px;
 }
 
