@@ -49,6 +49,7 @@
     border-bottom-left-radius: 6px;
     border: none;
     width: 400px;
+    
     font-weight: bold;
     color: rgb(62, 60, 60);
 }
@@ -200,6 +201,7 @@
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border: none;
+    font-size: 16px;
     width: 180px;
     font-weight: bold;
     color: rgb(62, 60, 60);
@@ -207,13 +209,15 @@
 
 .track-button{
     padding: 12px;
+    font-size: 16px;
+    text-align: center;
     border: none;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     cursor: pointer;
     background-color: rgb(58, 1, 58);
     color: white;
-    width: 70px;
+    width: 80px;
     font-weight: bold;
 }
 }

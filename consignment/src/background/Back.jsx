@@ -54,7 +54,7 @@ const Back = () => {
               value={trackingCode} 
               onChange={(e) => setTrackingCode(e.target.value)} 
             />
-            <button type='submit' className='track-button'>TRACK</button>
+            <button type='submit' className='track-button'>Track</button>
           </span>
         </form>
       </div>
